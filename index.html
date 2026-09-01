@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Uma exploração visual sobre vacinas, biotecnologia e curiosidades científicas." />
+  <title>BioVax — Vacinas & Biotecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="BioVax início">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>Bio<span>Vax</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#o-que-e">O que é</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#beneficios">Benefícios</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Alternar tema">
+          <span id="themeIcon">☾</span>
+        </button>
+        <button class="menu-button" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-glow glow-a"></div>
+      <div class="hero-glow glow-b"></div>
+
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="eyebrow"><span class="pulse-dot"></span> Ciência que protege vidas</div>
+          <h1>Vacinas + <span>biotecnologia</span>: pequeno no tamanho, enorme no impacto.</h1>
+          <p class="hero-copy">
+            Entenda de forma rápida e visual como a biotecnologia ajuda a criar vacinas,
+            treinar o sistema imunológico e transformar descobertas científicas em saúde.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#curiosidades">Explorar curiosidades <span>↗</span></a>
+            <a class="button button-ghost" href="#como-funciona">Ver como funciona</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>1796</strong><span>primeira vacinação moderna</span></div>
+            <div><strong>mRNA</strong><span>uma das tecnologias atuais</span></div>
+            <div><strong>imunidade</strong><span>objetivo do treinamento</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1" aria-label="Ilustração abstrata de uma partícula e cadeia de DNA">
+          <div class="orbital orbital-1"></div>
+          <div class="orbital orbital-2"></div>
+          <div class="orbital orbital-3"></div>
+          <div class="core">
+            <div class="core-inner">
+              <span class="tiny-dot d1"></span>
+              <span class="tiny-dot d2"></span>
+              <span class="tiny-dot d3"></span>
+              <span class="tiny-dot d4"></span>
+              <div class="core-symbol">🧬</div>
+            </div>
+          </div>
+          <div class="float-card card-top">
+            <span class="mini-icon">⚡</span>
+            <div><strong>Resposta</strong><small>imunológica</small></div>
+          </div>
+          <div class="float-card card-bottom">
+            <span class="mini-icon">🛡</span>
+            <div><strong>Memória</strong><small>do organismo</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee-section" aria-label="Temas">
+      <div class="marquee-track">
+        <span>VACINAS</span><i>✦</i><span>BIOTECNOLOGIA</span><i>✦</i><span>IMUNOLOGIA</span><i>✦</i>
+        <span>INOVAÇÃO</span><i>✦</i><span>SAÚDE</span><i>✦</i><span>VACINAS</span><i>✦</i>
+        <span>BIOTECNOLOGIA</span><i>✦</i><span>IMUNOLOGIA</span><i>✦</i><span>INOVAÇÃO</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section" id="o-que-e">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="kicker">01 / CONCEITO</span>
+            <h2>O que são vacinas?</h2>
+          </div>
+          <p>Uma forma de preparar o sistema imunológico para reconhecer um agente infeccioso antes de uma exposição real.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card large reveal">
+            <div class="feature-number">01</div>
+            <span class="card-icon">🧫</span>
+            <h3>Treinamento biológico</h3>
+            <p>As vacinas apresentam ao organismo uma informação ou versão segura de um alvo. Assim, o sistema imune pode aprender a responder sem depender da doença completa.</p>
+            <div class="line-arrow">↗</div>
+          </article>
+
+          <article class="feature-card reveal delay-1">
+            <span class="card-icon">🧠</span>
+            <h3>Memória imunológica</h3>
+            <p>Depois do contato com o antígeno, células de memória podem permanecer no organismo e acelerar uma resposta futura.</p>
+          </article>
+
+          <article class="feature-card accent reveal delay-2">
+            <span class="card-icon">🔬</span>
+            <h3>Onde entra a biotecnologia?</h3>
+            <p>Ela permite usar células, microrganismos, proteínas e técnicas de engenharia genética para desenvolver e produzir vacinas com mais precisão.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="como-funciona">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="kicker">02 / PROCESSO</span>
+            <h2>Como funciona?</h2>
+          </div>
+          <p>Uma visão simplificada do caminho entre a aplicação de uma vacina e a formação de memória imunológica.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          <article class="timeline-item reveal">
+            <span class="step">1</span>
+            <div><small>ENTRADA</small><h3>Informação é apresentada</h3><p>O organismo recebe um antígeno ou uma informação que ajuda a produzir o alvo reconhecido pelo sistema imune.</p></div>
+          </article>
+          <article class="timeline-item reveal delay-1">
+            <span class="step">2</span>
+            <div><small>RECONHECIMENTO</small><h3>Defesas entram em ação</h3><p>Células do sistema imunológico reconhecem o alvo e iniciam uma resposta específica.</p></div>
+          </article>
+          <article class="timeline-item reveal delay-2">
+            <span class="step">3</span>
+            <div><small>APRENDIZADO</small><h3>Anticorpos e células de memória</h3><p>A resposta pode gerar anticorpos e células de memória capazes de reconhecer o agente no futuro.</p></div>
+          </article>
+          <article class="timeline-item reveal delay-3">
+            <span class="step">4</span>
+            <div><small>PROTEÇÃO</small><h3>Resposta mais rápida</h3><p>Em uma exposição posterior, o sistema imune pode reagir mais rapidamente, reduzindo o risco de doença grave em diversos casos.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="curiosidades">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="kicker">03 / CURIOSIDADES</span>
+            <h2>Você sabia?</h2>
+          </div>
+          <p>Fatos rápidos para entender como ciência, história e tecnologia se conectam.</p>
+        </div>
+
+        <div class="curiosity-grid">
+          <article class="curiosity-card reveal">
+            <div class="curiosity-top"><span>HISTÓRIA</span><span>01</span></div>
+            <h3>A primeira vacinação moderna</h3>
+            <p>Em 1796, Edward Jenner observou que a exposição à varíola bovina poderia conferir proteção contra a varíola humana.</p>
+            <div class="tag">Século XVIII</div>
+          </article>
+
+          <article class="curiosity-card highlight reveal delay-1">
+            <div class="curiosity-top"><span>TECNOLOGIA</span><span>02</span></div>
+            <h3>Vacinas de mRNA não alteram o DNA</h3>
+            <p>O mRNA fornece instruções temporárias para produção de uma proteína-alvo e depois é degradado pela célula.</p>
+            <div class="tag">mRNA</div>
+          </article>
+
+          <article class="curiosity-card reveal delay-2">
+            <div class="curiosity-top"><span>BIOTECNOLOGIA</span><span>03</span></div>
+            <h3>Nem toda vacina usa o agente inteiro</h3>
+            <p>Algumas plataformas usam apenas partes específicas do agente, como proteínas, vetores ou material genético.</p>
+            <div class="tag">Plataformas</div>
+          </article>
+
+          <article class="curiosity-card reveal">
+            <div class="curiosity-top"><span>IMUNOLOGIA</span><span>04</span></div>
+            <h3>Anticorpos não são a história toda</h3>
+            <p>A proteção também envolve células T, células B e mecanismos de memória que trabalham em conjunto.</p>
+            <div class="tag">Sistema imune</div>
+          </article>
+
+          <article class="curiosity-card reveal delay-1">
+            <div class="curiosity-top"><span>PRODUÇÃO</span><span>05</span></div>
+            <h3>Escalar uma vacina é um desafio</h3>
+            <p>Além de funcionar, a vacina precisa ser produzida com qualidade, consistência e controles rigorosos.</p>
+            <div class="tag">Qualidade</div>
+          </article>
+
+          <article class="curiosity-card reveal delay-2">
+            <div class="curiosity-top"><span>INOVAÇÃO</span><span>06</span></div>
+            <h3>Biotecnologia vai além das vacinas</h3>
+            <p>As mesmas áreas científicas ajudam em medicamentos, diagnósticos, agricultura, alimentos e aplicações ambientais.</p>
+            <div class="tag">Biotecnologia</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="beneficios">
+      <div class="container benefits-layout">
+        <div class="reveal">
+          <span class="kicker kicker-light">04 / IMPACTO</span>
+          <h2>Por que isso importa?</h2>
+          <p class="dark-copy">Vacinas são uma aplicação da biotecnologia com impacto coletivo: elas ajudam a reduzir a circulação de doenças, protegem indivíduos e podem diminuir a pressão sobre sistemas de saúde.</p>
+        </div>
+        <div class="benefits-cards">
+          <div class="benefit reveal"><span>01</span><div><h3>Prevenção</h3><p>Evita ou reduz o risco de doenças e complicações.</p></div></div>
+          <div class="benefit reveal delay-1"><span>02</span><div><h3>Inovação</h3><p>Novas plataformas permitem respostas mais rápidas a desafios.</p></div></div>
+          <div class="benefit reveal delay-2"><span>03</span><div><h3>Pesquisa</h3><p>Dados e tecnologia ajudam a aprimorar desenvolvimento e monitoramento.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ethics">
+      <div class="container">
+        <div class="ethics-box reveal">
+          <div>
+            <span class="kicker">05 / OLHAR CRÍTICO</span>
+            <h2>E existem desafios?</h2>
+          </div>
+          <p>Sim. Desenvolvimento, testes, segurança, produção, distribuição, acesso e comunicação científica envolvem questões técnicas e éticas. Ciência de qualidade exige evidências, transparência e acompanhamento contínuo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sources">
+      <div class="container">
+        <div class="sources-inner reveal">
+          <div>
+            <span class="kicker">LEITURA RÁPIDA</span>
+            <h2>Curiosidade não termina aqui.</h2>
+          </div>
+          <p>Para aprofundar o tema, procure fontes como Ministério da Saúde, Fiocruz, OMS/WHO e instituições de pesquisa. Este site é educativo e apresenta uma visão resumida.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand footer-brand">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>Bio<span>Vax</span></span>
+      </div>
+      <p>Trabalho escolar • Vacinas e Biotecnologia</p>
+      <a href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
